@@ -61,7 +61,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40%;
+    margin-top: 20%;
 }
 
 h1 {
@@ -131,7 +131,7 @@ p {
     }
 
     .icon-container {
-        top: 15%;
+        top: 10%;
         gap: 15px;
     }
 
