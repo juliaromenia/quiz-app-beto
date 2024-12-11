@@ -1,19 +1,17 @@
 body {
     margin: 0;
     padding: 0;
-    height: auto;
-    min-height: 100vh;
+    min-height: 100vh; /* Permite rolar caso a altura da tela seja menor que a altura da imagem */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url('../Icons/3.png');
     background-size: cover;
-    background-repeat: no-repeat; 
-    background-attachment: scroll;
-    overflow-x: hidden; 
+    background-repeat: no-repeat;
+    background-attachment: scroll; /* Ajuste para dispositivos móveis */
+    overflow-x: hidden; /* Impede rolagem horizontal */
 }
-
 
 .top-content {
     text-align: center;
@@ -66,6 +64,7 @@ body {
 }
 
 h1 {
+    margin-top: 70%;
     font-size: 1.7vw;
     color: #FFF;
     font-family: "Press Start 2P", system-ui;
