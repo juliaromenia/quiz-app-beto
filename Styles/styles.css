@@ -1,17 +1,17 @@
 body {
     margin: 0;
     padding: 0;
-    height: auto; /* Permite que a página tenha altura variável */
-    min-height: 100vh; /* Garante que a tela ocupe pelo menos a altura total da tela */
+    height: auto; 
+    min-height: 100%; 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Flex start para garantir o início da rolagem */
+    justify-content: flex-start; 
     align-items: center;
     background-image: url('../Icons/3.png');
-    background-size: cover; /* A imagem ocupa toda a tela */
-    background-position: center; /* A imagem é centralizada */
+    background-size: cover;
+    background-position: center; 
     background-repeat: no-repeat; 
-    overflow-x: hidden; /* Impede a rolagem horizontal */
+    overflow-x: hidden;
 }
 
 .top-content {
@@ -61,11 +61,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1%;
+    margin-top: 40%;
 }
 
 h1 {
-    margin-top: 70%;
     font-size: 1.7vw;
     color: #FFF;
     font-family: "Press Start 2P", system-ui;
