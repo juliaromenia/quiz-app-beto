@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../Icons/banner.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.button-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 60%;
+    width: 100%; 
+    background: transparent; 
+    z-index: 2; 
+}
+
+.icon-button, .icon-musica {
+    width: 45px; 
+    height: 45px; 
+    border: none; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-color: transparent;
+}
+
+.icon-button {
+    background-image: url('../Icons/local-na-rede-internet.png');
+}
+
+.icon-musica {
+    background-image: url('../Icons/musica.png');
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+    }
+
+}
