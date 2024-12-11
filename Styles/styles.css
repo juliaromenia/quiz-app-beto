@@ -1,16 +1,17 @@
 body {
     margin: 0;
     padding: 0;
-    min-height: 100vh; /* Permite rolar caso a altura da tela seja menor que a altura da imagem */
+    height: auto; /* Permite que a página tenha altura variável */
+    min-height: 100vh; /* Garante que a tela ocupe pelo menos a altura total da tela */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Flex start para garantir o início da rolagem */
     align-items: center;
     background-image: url('../Icons/3.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll; /* Ajuste para dispositivos móveis */
-    overflow-x: hidden; /* Impede rolagem horizontal */
+    background-size: cover; /* A imagem ocupa toda a tela */
+    background-position: center; /* A imagem é centralizada */
+    background-repeat: no-repeat; 
+    overflow-x: hidden; /* Impede a rolagem horizontal */
 }
 
 .top-content {
