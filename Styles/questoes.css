@@ -8,6 +8,7 @@ body {
     align-items: center;
     overflow: hidden;
     background: linear-gradient(135deg, #0cc0df, #ffde59); 
+    overflow: hidden;
 }
 
 h1 {
