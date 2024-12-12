@@ -4,7 +4,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     overflow: hidden;
     background: linear-gradient(135deg, #0cc0df, #ffde59); 
@@ -29,6 +29,7 @@ h1 {
 }
 
 main {
+    margin-top: 11%;
     padding: 10px;
     border-radius: 10px;
     width: 100%;
